@@ -1,1 +1,16 @@
 ./data/fonts/chn/msyh.ttc
+./data/fonts/chn/仿宋_GB2312.ttf
+./data/fonts/chn/楷体_GB2312.ttf
+./data/fonts/chn/张海山锐线体2.0.TTF
+./data/fonts/chn/张海山锐谐体2.0.TTF
+./data/fonts/chn/bb1550.ttf
+./data/fonts/chn/DroidSansFallback.ttf
+./data/fonts/chn/huawenxihei.ttf
+./data/fonts/chn/MISSYUAN-叶根友毛笔行书简体_0.TTF
+./data/fonts/chn/msyh.ttf
+./data/fonts/chn/msyhbd.ttf
+./data/fonts/chn/simfang.ttf
+./data/fonts/chn/simhei.ttf
+./data/fonts/chn/simkai.ttf
+./data/fonts/chn/simsun.ttc
+./data/fonts/chn/yahei_mono.ttf
