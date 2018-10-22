@@ -214,8 +214,16 @@ class Renderer(object):
 
         word_roi_bg = bg[ymin: ymax, xmin: xmax]
 
-        bg_mean = int(np.mean(word_roi_bg) * (2 / 3))
-        word_color = random.randint(0, bg_mean)
+        # bg_mean = int(np.mean(word_roi_bg) * (2 / 3))
+        # word_color = random.randint(0, bg_mean)
+        mean_bg = np.mean(word_roi_bg)
+        if mean_bg > 128:
+             bg_mean = int (mean_bg * (2 / 3))
+             word_color = random.randint(0, bg_mean)
+        else:
+            bg_mean = int (mean_bg * (5 / 3))
+            word_color = random.randint(bg_mean, 255)
+
         return word_color
 
     def draw_text_on_bg(self, word, font, bg):
